@@ -1,0 +1,10 @@
+# Klasör listelemeyi engelle
+Options -Indexes
+
+# UTF-8 Desteği
+AddDefaultCharset UTF-8
+
+<Files .env>
+    Order allow,deny
+    Deny from all
+</Files>
